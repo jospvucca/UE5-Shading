@@ -72,3 +72,48 @@ Plugins/*/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# From GPT
+# Ignore intermediate and build files
+Intermediate/
+Saved/
+
+# Ignore binary files and executables
+Binaries/
+*.dll
+*.pdb
+*.exe
+
+# Ignore Visual Studio files
+.vs/
+.vscode/
+*.suo
+*.sdf
+*.opensdf
+
+# Ignore generated project files
+*.sln
+*.uproject.user
+
+# Ignore user-specific files
+*.suo
+*.user
+*.userprefs
+
+# Ignore logs
+Logs/
+
+# Ignore swarm cache
+SwarmCache/
+
+# Ignore DerivedDataCache
+DerivedDataCache/
+
+# Ignore captures
+Captures/
+
+# Ignore autosave
+Autosave/
+
+# Ignore crash report files
+Saved/Crashes/
